@@ -1,0 +1,5 @@
+require 'magnum/timezone/converter'
+require 'magnum/timezone/segment_converter'
+require 'magnum/timezone/range'
+require 'magnum/timezone/days'
+require 'magnum/timezone/operation'

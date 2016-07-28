@@ -1,0 +1,131 @@
+{
+  "name":"cst_bug_case",
+  "allocations": [
+    {
+    "destinations": [
+      {
+      "destination_id": 4, 
+      "id": 4, 
+      "type": "Destination", 
+      "value": "1234445555"
+    }, 
+    {
+      "destination_id": 479, 
+      "id": 479, 
+      "type": "VlabelMap", 
+      "value": "18181818181"
+    }
+    ], 
+    "id": "067be9a0-7706-11e3-b673-c55c341d29b1", 
+    "percentage": "100"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 4, 
+      "id": 4, 
+      "type": "Destination", 
+      "value": "1234445555"
+    }
+    ], 
+    "id": "dec281e0-7bf5-11e3-8234-a921850c47f9", 
+    "percentage": "100"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 4, 
+      "id": 4, 
+      "type": "Destination", 
+      "value": "1234445555"
+    }
+    ], 
+    "id": "e5a77dd0-7bf5-11e3-8234-a921850c47f9", 
+    "percentage": "40"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 3, 
+      "id": 3, 
+      "type": "Destination", 
+      "value": "1234567890"
+    }
+    ], 
+    "id": "ead04ad0-7bf5-11e3-8234-a921850c47f9", 
+    "percentage": "100"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 5, 
+      "id": 5, 
+      "type": "Destination", 
+      "value": "7108889999+1234"
+    }
+    ], 
+    "id": "e3d9ab90-7c09-11e3-a274-31a185ffab90", 
+    "percentage": "60"
+  }
+  ], 
+  "app_id": 8245, 
+  "labels": [
+    {
+    "description": "asdfafa", 
+    "id": "534", 
+    "isDelete": false, 
+    "vlabel": "im_label1"
+  }
+  ], 
+  "segments": [
+    {
+    "days": "1111110", 
+    "end_time": 1439, 
+    "id": "f7f335a0-7705-11e3-b673-c55c341d29b1", 
+    "start_time": 0
+  }, 
+  {
+    "days": "0000001", 
+    "end_time": 959, 
+    "id": "d46b69a0-7bf5-11e3-8234-a921850c47f9", 
+    "start_time": 0
+  }, 
+  {
+    "days": "0000001", 
+    "end_time": 1199, 
+    "id": "d46b69a1-7bf5-11e3-8234-a921850c47f9", 
+    "start_time": 960
+  }, 
+  {
+    "days": "0000001", 
+    "end_time": 1439, 
+    "id": "d46b69a2-7bf5-11e3-8234-a921850c47f9", 
+    "start_time": 1200
+  }
+  ], 
+  "status": "ACTIVE", 
+  "time_zone": "Central Time (US & Canada)", 
+  "tree": {
+    "d46b69a0-7bf5-11e3-8234-a921850c47f9": {
+      "534": [
+        "dec281e0-7bf5-11e3-8234-a921850c47f9"
+      ]
+    }, 
+    "d46b69a1-7bf5-11e3-8234-a921850c47f9": {
+      "534": [
+        "e5a77dd0-7bf5-11e3-8234-a921850c47f9", 
+        "e3d9ab90-7c09-11e3-a274-31a185ffab90"
+      ]
+    }, 
+    "d46b69a2-7bf5-11e3-8234-a921850c47f9": {
+      "534": [
+        "ead04ad0-7bf5-11e3-8234-a921850c47f9"
+      ]
+    }, 
+    "f7f335a0-7705-11e3-b673-c55c341d29b1": {
+      "534": [
+        "067be9a0-7706-11e3-b673-c55c341d29b1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name":"utc_profile_adr",
+  "time_zone" : "UTC",
+  "app_id" : 8245,
+  "adr": true,
+  "labels": [
+    {"id":"1", "vlabel":"label_1", "description":"whoa"},
+    {"id":"2", "vlabel":"label_2", "description":"whoa"},
+    {"id":"3", "vlabel":"label_3", "description":"whoa"}
+  ],
+  "segments": [
+    {"id":"1", "days":"0011111", "start_time":"0", "end_time":"1439"},
+    {"id":"2", "days":"1000000", "start_time":"0", "end_time":"1439"},
+    {"id":"3", "days":"0100000", "start_time":"0", "end_time":"1439"}
+  ],
+
+  "allocations": [
+    {
+      "id" : "1",
+      "percentage": "100",
+      "destinations" : [
+        {"destination_id": "1","type": "Destination"},
+        {"destination_id":"2", "type": "VlabelMap"},
+        {"destination_id":"4", "type": "VlabelMap"},
+        {"destination_id":"5", "type": "Destination"}
+      ]
+    },
+    {
+      "id" : "2",
+      "percentage": "100",
+      "destinations":[
+        {"type":"Destination", "destination_id":"1"}
+      ]
+    },
+    {
+      "id" : "3",
+      "percentage": "50",
+      "destinations":[
+        {"type":"Destination", "destination_id":"5"}
+      ]
+    }
+  ],
+
+  "tree" : {
+    "1": {
+      "1": ["1"],
+      "2": ["2"],
+      "3": ["1"]
+    },
+    "2": {
+      "1": ["1"],
+      "2": ["2"],
+      "3": ["1"]
+    },
+    "3": {
+      "1": ["1"],
+      "2": ["1"],
+      "3": ["1"]
+    }
+  }
+}

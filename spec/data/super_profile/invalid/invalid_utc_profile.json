@@ -1,0 +1,43 @@
+{
+  "name":"invalid_utc_profile",
+  "invalid":true,
+  "time_zone" : "UTC",
+  "app_id" : 8245,
+  "labels": [
+    {"id":"1", "vlabel":"label_1", "description":"whoa"},
+    {"id":"2", "vlabel":"label_2", "description":"whoa"},
+    {"id":"3", "vlabel":"label_3", "description":"whoa"},
+    {"id":"4", "vlabel":"label_4", "description":"whoa"}
+  ],
+  "segments": [
+    {"id":"1", "days":"1000001", "start_time":"0", "end_time":"1439"}
+  ],
+  "allocations" : [
+    {"percentage":"2", "id":"1", "destinations": [
+      {"destination_id": "1", "type": "Destination"}
+    ]},
+    {"percentage":"97","id":"2", "destinations": [
+      {"destination_id": "2", "type": "Destination"}
+    ]},
+    {"percentage":"0","id":"3", "destinations": [
+      {"destination_id": "2", "type": "Destination"}
+     ]},
+    {"percentage":"100", "id":"4","destinations": [
+      {"destination_id":"3","type":"Destination"}
+    ]},
+    {"percentage":"100", "id":"5", "destinations": [
+      {"destination_id":"2","type":"VlabelMap"}
+    ]},
+    {"percentage":"100", "id":"6", "destinations": [
+      {"destination_id":"3","type":"VlabelMap"}
+    ]}
+  ],
+  "tree" : {
+    "1": {
+      "1": ["1","2","3"],
+      "2": ["4"],
+      "3": ["5"],
+      "4": ["6"]
+    }
+  }
+}

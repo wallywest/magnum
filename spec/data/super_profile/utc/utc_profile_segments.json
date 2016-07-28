@@ -1,0 +1,29 @@
+{
+  "name":"utc_profile_segments",
+  "time_zone" : "UTC",
+  "app_id" : 8245,
+  "labels": [
+    {"id":"1", "vlabel":"label_1", "description":"whoa"}
+  ],
+  "segments": [
+    {"id":"1", "days":"1100000", "start_time":"0", "end_time":"1439"},
+    {"id":"2", "days":"0011111", "start_time":"0", "end_time":"1439"}
+  ],
+  "allocations" : [
+    {
+      "percentage":"100",
+      "id":"1",
+      "destinations": [
+        {"destination_id": "1", "type": "Destination"}
+      ]
+    }
+  ],
+  "tree" : {
+    "1": {
+      "1": ["1"]
+    },
+    "2":{
+      "1": ["1"]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name":"cst_profile_simple",
+  "time_zone" : "Central Time (US & Canada)",
+  "app_id" : 8245,
+  "labels": [
+    {"id":"1", "vlabel":"label_1", "description":"whoa"}
+  ],
+  "segments": [
+    {"id":"1", "days":"1111111", "start_time":"0", "end_time":"1439"}
+  ],
+  "allocations" : [
+    { "id":"1",
+    "percentage":"100",
+    "destinations": [ { "destination_id":"1", "type":"Destination" } ]
+  }
+  ],
+  "tree" : {
+    "1": {
+      "1": ["1"]
+    }
+  }
+}

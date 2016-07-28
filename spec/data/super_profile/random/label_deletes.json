@@ -1,0 +1,39 @@
+{
+  "name":"label_deletes",
+  "time_zone" : "UTC",
+  "app_id" : 8245,
+  "labels": [
+    {"id":"1", "vlabel":"label_1", "description":"whoa"},
+    {"id":"97", "vlabel":"label_97", "description":"whoa", "isDelete":true},
+    {"id":"98", "vlabel":"label_98", "description":"whoa", "isDelete":true},
+    {"id":"99", "vlabel":"label_99", "description":"whoa", "isDelete":true}
+  ],
+  "segments": [
+    {"id":"1", "days":"1100000", "start_time":"0", "end_time":"1439"},
+    {"id":"2", "days":"0011111", "start_time":"0", "end_time":"1439"}
+  ],
+  "allocations" : [
+    {
+      "percentage":"100",
+      "id":"1",
+      "destinations":[
+        {"destination_id":"1","type":"Destination"}
+      ]
+    },
+    {
+      "id":"2",
+      "percentage":"100",
+      "destinations":[
+        {"destination_id":"2","type":"Destination"}
+      ]
+    }
+  ],
+  "tree" : {
+    "1": {
+      "1": ["1"]
+    },
+    "2":{
+      "1": ["2"]
+    }
+  }
+}

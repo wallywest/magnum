@@ -1,0 +1,51 @@
+{
+  "name":"bug_case",
+  "invalid": true,
+  "time_zone" : "Central Time (US & Canada)",
+  "app_id" : 8245,
+  "labels": [
+    {"id":"1", "vlabel":"label_1", "description":"whoa"}
+  ],
+  "segments": [
+    {"id":"1", "days":"1111111", "start_time":"0", "end_time":"659"},
+    {"id":"2", "days":"1111111", "start_time":"700", "end_time":"1439"}
+  ],
+  "allocations": [
+    {
+      "id" : "1",
+      "percentage": "50",
+      "destinations" : [
+        {"destination_id": "1","type": "Destination"}
+      ]
+    },
+    {
+      "id":"2",
+      "percentage":"50",
+      "destinations":[
+        {"destination_id":"2","type":"Destination"}
+      ]
+    },
+    {
+      "id":"3",
+      "percentage":"60",
+      "destinations":[
+        {"destination_id":"1","type":"Destination"}
+      ]
+    },
+    {
+      "id":"4",
+      "percentage":"40",
+      "destinations":[
+        {"destination_id":"4","type":"Destination"}
+      ]
+    }
+  ],
+  "tree" : {
+    "1": {
+      "1": ["1","2"]
+    },
+    "2":{
+      "1": ["3","4"]
+    }
+  }
+}

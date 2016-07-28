@@ -1,0 +1,43 @@
+{
+  "name":"utc_profile_labels",
+  "time_zone" : "UTC",
+  "app_id" : 8245,
+  "labels": [
+    {"id":"1", "vlabel":"label_1", "description":"whoa"},
+    {"id":"2", "vlabel":"label_2", "description":"whoa"},
+    {"id":"3", "vlabel":"label_3", "description":"whoa"}
+  ],
+  "segments": [
+    {"id":"1", "days":"1111111", "start_time":"0", "end_time":"1439"}
+  ],
+  "allocations" : [
+    {
+      "percentage":"100",
+      "id":"1",
+      "destinations": [
+        {"destination_id":"1", "type":"Destination"}
+      ]
+    },
+    {
+      "percentage":"100",
+      "id":"2",
+      "destinations": [
+        {"destination_id":"1", "type":"Destination"}
+      ]
+    },
+    {
+      "percentage":"100",
+      "id":"3",
+      "destinations": [
+        {"destination_id":"1", "type":"Destination"}
+      ]
+    }
+  ],
+  "tree" : {
+    "1": {
+      "1": ["1"],
+      "2": ["2"],
+      "3": ["3"]
+    }
+  }
+}

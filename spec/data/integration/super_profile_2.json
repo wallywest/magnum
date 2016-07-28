@@ -1,0 +1,45 @@
+{
+ "adr":true,
+ "app_id":8245,
+ "labels":[
+  {
+   "id":"1",
+   "vlabel":"label_1",
+   "description":"whoa"
+  }
+ ],
+ "time_zone":"Central Time (US & Canada)",
+ "segments":[
+  {
+   "id":"A1_0_1439",
+   "days":"1111111",
+   "start_time":"0",
+   "end_time":"1439"
+  }
+ ],
+ "name":"super_profile_2",
+ "tree":{
+  "A1_0_1439":{
+   "1":[
+    "6bbe1db2-8745-4e2b-a00c-af4e709ccf27"
+   ]
+  }
+ },
+ "allocations":[
+  {
+   "percentage":"100",
+   "destinations":[
+    {
+     "destination_id":"2",
+     "type":"Destination"
+    },
+    {
+     "destination_id":"3",
+     "type":"VlabelMap"
+    }
+   ],
+   "id":"6bbe1db2-8745-4e2b-a00c-af4e709ccf27"
+  }
+ ],
+ "for_tz":true
+}

@@ -1,0 +1,129 @@
+{
+  "name":"gmt_profile_weird",
+  "app_id": 8245,
+  "time_zone": "UTC",
+  "tree": {
+    "55d43ca4-74fc-41cb-8b2c-222c91a37ac0": {
+      "385": [
+        "85a82470-0a99-11e3-a608-7f522457f2b0"
+      ]
+    },
+    "bc7c6f59-8665-4ce7-ace0-362c11302acc": {
+      "385": [
+        "85a82470-0a99-11e3-a608-7f522457f2b0"
+      ]
+    },
+    "6b988bb8-7b81-4c95-b4c0-1eb41ea31563": {
+      "385": [
+        "85a82470-0a99-11e3-a608-7f522457f2b0"
+      ]
+    },
+    "9139b323-8c82-4561-b0ce-e51a6e4abf73": {
+      "385": [
+        "9ae47a60-0b79-11e3-81f0-c7621c49aa3b"
+      ]
+    },
+    "adadca6b-9e23-40f1-94c7-6b7acd2abafc": {
+      "385": [
+        "1b51b320-0a99-11e3-8a04-c7d102ecf57e"
+      ]
+    },
+    "e5c98219-b454-4636-bf20-b1c56e689355": {
+      "385": [
+        "1b51b320-0a99-11e3-8a04-c7d102ecf57e"
+      ]
+    },
+    "7eefcf08-9536-4e14-ab87-bb7786aa8dbf": {
+      "385": [
+        "1b51b320-0a99-11e3-8a04-c7d102ecf57e"
+      ]
+    },
+    "d7ec41e4-0c28-4f89-a8fd-a8ad3bd25202": {
+      "385": [
+        "1b51b320-0a99-11e3-8a04-c7d102ecf57e"
+      ]
+    }
+  },
+  "labels": [
+    {
+      "id": "385",
+      "vlabel": "1231313131",
+      "description": "asdfafa",
+      "isDelete": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "55d43ca4-74fc-41cb-8b2c-222c91a37ac0",
+      "days": "1000000",
+      "start_time": 240,
+      "end_time": 1439
+    },
+    {
+      "id": "bc7c6f59-8665-4ce7-ace0-362c11302acc",
+      "days": "0100000",
+      "start_time": 0,
+      "end_time": 1439
+    },
+    {
+      "id": "6b988bb8-7b81-4c95-b4c0-1eb41ea31563",
+      "days": "0010000",
+      "start_time": 0,
+      "end_time": 239
+    },
+    {
+      "id": "9139b323-8c82-4561-b0ce-e51a6e4abf73",
+      "days": "0011111",
+      "start_time": 240,
+      "end_time": 959
+    },
+    {
+      "id": "adadca6b-9e23-40f1-94c7-6b7acd2abafc",
+      "days": "1000000",
+      "start_time": 0,
+      "end_time": 239
+    },
+    {
+      "id": "e5c98219-b454-4636-bf20-b1c56e689355",
+      "days": "0010000",
+      "start_time": 960,
+      "end_time": 1439
+    },
+    {
+      "id": "7eefcf08-9536-4e14-ab87-bb7786aa8dbf",
+      "days": "0001111",
+      "start_time": 0,
+      "end_time": 239
+    },
+    {
+      "id": "d7ec41e4-0c28-4f89-a8fd-a8ad3bd25202",
+      "days": "0001111",
+      "start_time": 960,
+      "end_time": 1439
+    }
+  ],
+  "allocations": [
+    {
+      "id": "1b51b320-0a99-11e3-8a04-c7d102ecf57e",
+      "percentage": "100",
+      "destinations": [
+        {"type": "Destination", "destination_id":4}
+      ]
+    },
+    {
+      "id": "85a82470-0a99-11e3-a608-7f522457f2b0",
+      "percentage": "100",
+      "destinations": [
+        {"type": "Destination", "destination_id":3}
+      ]
+    },
+    {
+      "id": "9ae47a60-0b79-11e3-81f0-c7621c49aa3b",
+      "destination_id": 5,
+      "percentage": "100",
+      "destinations": [
+        {"type": "Destination", "destination_id":5}
+      ]
+    }
+  ]
+}

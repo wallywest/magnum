@@ -1,0 +1,69 @@
+{
+  "labels": [ {"id":"1", "vlabel":"label_1", "description":"whoa"} ],
+  "time_zone": [ "Central Time (US & Canada)"],
+
+  "days": [
+    [ { "id": "A1" , "dow": "1111111" } ],
+
+    [ { "id": "B1" , "dow": "0111110" },  { "id": "B2", "dow": "1000001" }],
+
+    [ { "id": "C1" , "dow": "1000000" },  { "id": "C2", "dow": "0101010" },
+      { "id": "C3" , "dow": "0010100" },  { "id": "C4", "dow": "0000001" }],
+
+    [ { "id": "D1" , "dow": "1000000" },  { "id": "D2", "dow": "0100000" },
+      { "id": "D3" , "dow": "0010000" },  { "id": "D4", "dow": "0001000" },
+      { "id": "D5" , "dow": "0000100" },  { "id": "D6", "dow": "0000010" },
+      { "id": "D7" , "dow": "0000001" }]
+  ],
+
+  "tod": [
+    [ { "start_time": "0"   , "end_time": "1439" }],
+    [ { "start_time": "0"   , "end_time": "719"  }, { "start_time": "720" , "end_time": "1439" }],
+    [ { "start_time": "0"   , "end_time": "479"  }, { "start_time": "480" , "end_time": "959"  } , { "start_time": "960", "end_time": "1439" }],
+
+    [ { "start_time": "0"   , "end_time": "59"   }, { "start_time": "60"  , "end_time": "119"  },
+      { "start_time": "120" , "end_time": "179"  }, { "start_time": "180" , "end_time": "239"  },
+      { "start_time": "240" , "end_time": "299"  }, { "start_time": "300" , "end_time": "359"  },
+      { "start_time": "360" , "end_time": "419"  }, { "start_time": "420" , "end_time": "479"  },
+      { "start_time": "480" , "end_time": "539"  }, { "start_time": "540" , "end_time": "599"  },
+      { "start_time": "600" , "end_time": "659"  }, { "start_time": "660" , "end_time": "719"  },
+      { "start_time": "720" , "end_time": "779"  }, { "start_time": "780" , "end_time": "839"  },
+      { "start_time": "840" , "end_time": "899"  }, { "start_time": "900" , "end_time": "959"  },
+      { "start_time": "960" , "end_time": "1019" }, { "start_time": "1020", "end_time": "1079" },
+      { "start_time": "1080", "end_time": "1139" }, { "start_time": "1140", "end_time": "1199" },
+      { "start_time": "1200", "end_time": "1259" }, { "start_time": "1260", "end_time": "1319" },
+      { "start_time": "1320", "end_time": "1379" }, { "start_time": "1380", "end_time": "1439" }]
+  ],
+
+  "allocations": [
+    [ {  "percentage": "100" } ],
+    [ {  "percentage": "20"  }  , {  "percentage": "80" } ],
+    [ {  "percentage": "50"  }  , {  "percentage": "50" } ],
+    [ {  "percentage": "33"  }  , {  "percentage": "33" }  , { "percentage": "34" }],
+
+    [ {  "percentage": "35"  }  , { "percentage": "0"  },
+      {  "percentage": "40"  } , {  "percentage": "25" } ]
+  ],
+
+  "destinations": [
+    [
+      {"destination_id": "1", "type": "Destination"}
+    ],
+     [
+      {"destination_id": "2", "type": "Destination"},
+      {"destination_id": "3", "type": "VlabelMap"}
+    ],
+     [
+      {"destination_id": "4", "type": "VlabelMap"},
+      {"destination_id": "5", "type": "Destination"},
+      {"destination_id": "6", "type": "VlabelMap"},
+      {"destination_id": "7", "type": "Destination"}
+    ],
+     [
+      {"destination_id": "8", "type": "Prompt"},
+      {"destination_id": "9", "type": "VlabelMap"},
+      {"destination_id": "10", "type": "VlabelMap"},
+      {"destination_id": "11", "type": "Destination"}
+    ]
+  ]
+}

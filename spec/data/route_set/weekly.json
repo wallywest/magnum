@@ -1,0 +1,43 @@
+{
+  "name":"weekly",
+  "description": "i am a description",
+  "type":"weekly",
+  "time_zone" : "Central Time (US & Canada)",
+  "app_id" : 8245,
+  "segments": [
+    {"id":"1", "days":"1000000", "start_time":"0", "end_time":"1439"},
+    {"id":"2", "days":"0100000", "start_time":"0", "end_time":"1079"},
+    {"id":"3", "days":"0100000", "start_time":"1080", "end_time":"1439"},
+    {"id":"4", "days":"0011110", "start_time":"0", "end_time":"1439"},
+    {"id":"5", "days":"0000001", "start_time":"0", "end_time":"1079"},
+    {"id":"6", "days":"0000001", "start_time":"1080", "end_time":"1439"}
+  ],
+
+  "allocations": [
+    {
+      "id" : "1",
+      "percentage": "100",
+      "destinations" : [
+        {"destination_id": "1","type": "Destination", "dequeue":"label_99"},
+        {"destination_id": "1","type": "VlabelMap"}
+      ]
+    },
+    {
+      "id" : "2",
+      "percentage": "100",
+      "destinations" : [
+        {"destination_id": "2","type": "Destination"},
+        {"destination_id": "1","type": "VlabelMap"}
+      ]
+    }
+  ],
+
+  "tree" : {
+    "1": ["1"],
+    "2": ["1"],
+    "3": ["2"],
+    "4": ["1"],
+    "5": ["2"],
+    "6": ["1"]
+  }
+}

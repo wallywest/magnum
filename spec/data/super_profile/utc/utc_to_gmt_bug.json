@@ -1,0 +1,344 @@
+{
+  "name":"utc_to_gmt_bug",
+  "allocations": [
+    {
+    "destinations": [
+      {
+      "destination_id": 16490656, 
+      "id": 16490656, 
+      "type": "Destination", 
+      "value": "1112231251"
+    }
+    ], 
+    "id": "b3675670-7d70-11e3-88f5-c79977c79dde", 
+    "percentage": "51"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16484888, 
+      "id": 16484888, 
+      "type": "Destination", 
+      "value": "1112231400"
+    }
+    ], 
+    "id": "b3675671-7d70-11e3-88f5-c79977c79dde", 
+    "percentage": "49"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16490656, 
+      "id": 16490656, 
+      "type": "Destination", 
+      "value": "1112231251"
+    }
+    ], 
+    "id": "c41ef860-7d70-11e3-88f5-c79977c79dde", 
+    "percentage": "52"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16484902, 
+      "id": 16484902, 
+      "type": "Destination", 
+      "value": "1112231401"
+    }
+    ], 
+    "id": "c41ef861-7d70-11e3-88f5-c79977c79dde", 
+    "percentage": "48"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16490656, 
+      "id": 16490656, 
+      "type": "Destination", 
+      "value": "1112231251"
+    }
+    ], 
+    "id": "e7ae5d20-7d70-11e3-88f5-c79977c79dde", 
+    "percentage": "53"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16484888, 
+      "id": 16484888, 
+      "type": "Destination", 
+      "value": "1112231400"
+    }
+    ], 
+    "id": "e7ae5d21-7d70-11e3-88f5-c79977c79dde", 
+    "percentage": "47"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16484888, 
+      "id": 16484888, 
+      "type": "Destination", 
+      "value": "1112231400"
+    }
+    ], 
+    "id": "fcc20630-7d70-11e3-88f5-c79977c79dde", 
+    "percentage": "54"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16484902, 
+      "id": 16484902, 
+      "type": "Destination", 
+      "value": "1112231401"
+    }
+    ], 
+    "id": "fcc20631-7d70-11e3-88f5-c79977c79dde", 
+    "percentage": "46"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16484888, 
+      "id": 16484888, 
+      "type": "Destination", 
+      "value": "1112231400"
+    }
+    ], 
+    "id": "0d217600-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "55"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16490656, 
+      "id": 16490656, 
+      "type": "Destination", 
+      "value": "1112231251"
+    }
+    ], 
+    "id": "0d217601-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "45"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16484902, 
+      "id": 16484902, 
+      "type": "Destination", 
+      "value": "1112231401"
+    }
+    ], 
+    "id": "6591fe90-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "56"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16484440, 
+      "id": 16484440, 
+      "type": "Destination", 
+      "value": "1112233339"
+    }
+    ], 
+    "id": "6591fe91-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "44"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16490656, 
+      "id": 16490656, 
+      "type": "Destination", 
+      "value": "1112231251"
+    }
+    ], 
+    "id": "799e70d0-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "57"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 102514, 
+      "id": 102514, 
+      "type": "VlabelMap", 
+      "value": "1112231401"
+    }
+    ], 
+    "id": "799e97e0-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "43"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16490656, 
+      "id": 16490656, 
+      "type": "Destination", 
+      "value": "1112231251"
+    }
+    ], 
+    "id": "8f74cda0-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "58"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16490689, 
+      "id": 16490689, 
+      "type": "Destination", 
+      "value": "1112231402"
+    }
+    ], 
+    "id": "8f74cda1-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "42"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 16484888, 
+      "id": 16484888, 
+      "type": "Destination", 
+      "value": "1112231400"
+    }
+    ], 
+    "id": "a02c96a0-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "59"
+  }, 
+  {
+    "destinations": [
+      {
+      "destination_id": 102514, 
+      "id": 102514, 
+      "type": "VlabelMap", 
+      "value": "1112231401"
+    }
+    ], 
+    "id": "a02c96a1-7d71-11e3-88f5-c79977c79dde", 
+    "percentage": "41"
+  }
+  ], 
+  "app_id": 1824, 
+  "labels": [
+    {
+    "description": "SEGMENT TEST LABEL", 
+    "id": "388959", 
+    "isDelete": false, 
+    "vlabel": "SEGMEN_TEST_LABEL"
+  }
+  ], 
+  "segments": [
+    {
+    "days": "1000000", 
+    "end_time": 719, 
+    "id": "9a8407c0-7d70-11e3-88f5-c79977c79dde", 
+    "start_time": 0
+  }, 
+  {
+    "days": "1000000", 
+    "end_time": 1019, 
+    "id": "9a8407c1-7d70-11e3-88f5-c79977c79dde", 
+    "start_time": 720
+  }, 
+  {
+    "days": "1000000", 
+    "end_time": 1439, 
+    "id": "9a842ed0-7d70-11e3-88f5-c79977c79dde", 
+    "start_time": 1020
+  }, 
+  {
+    "days": "0111110", 
+    "end_time": 719, 
+    "id": "9a842ed1-7d70-11e3-88f5-c79977c79dde", 
+    "start_time": 0
+  }, 
+  {
+    "days": "0111110", 
+    "end_time": 1019, 
+    "id": "9a842ed2-7d70-11e3-88f5-c79977c79dde", 
+    "start_time": 720
+  }, 
+  {
+    "days": "0111110", 
+    "end_time": 1439, 
+    "id": "9a842ed3-7d70-11e3-88f5-c79977c79dde", 
+    "start_time": 1020
+  }, 
+  {
+    "days": "0000001", 
+    "end_time": 719, 
+    "id": "9a842ed4-7d70-11e3-88f5-c79977c79dde", 
+    "start_time": 0
+  }, 
+  {
+    "days": "0000001", 
+    "end_time": 1079, 
+    "id": "9a842ed5-7d70-11e3-88f5-c79977c79dde", 
+    "start_time": 720
+  }, 
+  {
+    "days": "0000001", 
+    "end_time": 1439, 
+    "id": "9a842ed6-7d70-11e3-88f5-c79977c79dde", 
+    "start_time": 1080
+  }
+  ], 
+  "status": "ACTIVE", 
+  "time_zone": "Central Time (US & Canada)", 
+  "tree": {
+    "9a8407c0-7d70-11e3-88f5-c79977c79dde": {
+      "388959": [
+        "b3675670-7d70-11e3-88f5-c79977c79dde", 
+        "b3675671-7d70-11e3-88f5-c79977c79dde"
+      ]
+    }, 
+    "9a8407c1-7d70-11e3-88f5-c79977c79dde": {
+      "388959": [
+        "c41ef860-7d70-11e3-88f5-c79977c79dde", 
+        "c41ef861-7d70-11e3-88f5-c79977c79dde"
+      ]
+    }, 
+    "9a842ed0-7d70-11e3-88f5-c79977c79dde": {
+      "388959": [
+        "e7ae5d20-7d70-11e3-88f5-c79977c79dde", 
+        "e7ae5d21-7d70-11e3-88f5-c79977c79dde"
+      ]
+    }, 
+    "9a842ed1-7d70-11e3-88f5-c79977c79dde": {
+      "388959": [
+        "fcc20630-7d70-11e3-88f5-c79977c79dde", 
+        "fcc20631-7d70-11e3-88f5-c79977c79dde"
+      ]
+    }, 
+    "9a842ed2-7d70-11e3-88f5-c79977c79dde": {
+      "388959": [
+        "0d217600-7d71-11e3-88f5-c79977c79dde", 
+        "0d217601-7d71-11e3-88f5-c79977c79dde"
+      ]
+    }, 
+    "9a842ed3-7d70-11e3-88f5-c79977c79dde": {
+      "388959": [
+        "6591fe90-7d71-11e3-88f5-c79977c79dde", 
+        "6591fe91-7d71-11e3-88f5-c79977c79dde"
+      ]
+    }, 
+    "9a842ed4-7d70-11e3-88f5-c79977c79dde": {
+      "388959": [
+        "799e70d0-7d71-11e3-88f5-c79977c79dde", 
+        "799e97e0-7d71-11e3-88f5-c79977c79dde"
+      ]
+    }, 
+    "9a842ed5-7d70-11e3-88f5-c79977c79dde": {
+      "388959": [
+        "8f74cda0-7d71-11e3-88f5-c79977c79dde", 
+        "8f74cda1-7d71-11e3-88f5-c79977c79dde"
+      ]
+    }, 
+    "9a842ed6-7d70-11e3-88f5-c79977c79dde": {
+      "388959": [
+        "a02c96a0-7d71-11e3-88f5-c79977c79dde", 
+        "a02c96a1-7d71-11e3-88f5-c79977c79dde"
+      ]
+    }
+  }
+}
